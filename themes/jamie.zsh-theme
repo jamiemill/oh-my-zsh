@@ -12,5 +12,4 @@ function jamie_prompt {
 
 setopt prompt_subst
 
-PROMPT='
-$(jamie_prompt) %(?,%{%F{green}%},%{%F{red}%})⚡%{$reset_color%} '
+PROMPT='$(jamie_prompt) %(?,%{%F{green}%},%{%F{red}%})⚡%{$reset_color%} '
